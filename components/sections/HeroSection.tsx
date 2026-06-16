@@ -29,13 +29,13 @@ export default function HeroSection() {
           className="w-full h-full object-cover"
           aria-hidden
         />
-        <div className="absolute inset-0 bg-gradient-to-r from-background/80 via-background/40 to-transparent" />
-        <div className="absolute inset-0 bg-gradient-to-t from-background/60 via-transparent to-transparent" />
+        <div className="absolute inset-0 bg-gradient-to-r from-background/90 via-background/50 to-transparent" />
+        <div className="absolute inset-0 bg-gradient-to-t from-background/70 via-transparent to-transparent" />
       </motion.div>
 
       {/* Decorative orbs */}
-      <GlowOrb className="w-96 h-96 -top-24 -right-24 opacity-60" />
-      <GlowOrb className="w-64 h-64 bottom-24 right-1/3 opacity-30" />
+      <GlowOrb className="w-96 h-96 -top-24 -right-24 opacity-40" />
+      <GlowOrb className="w-64 h-64 bottom-24 right-1/3 opacity-20" />
 
       {/* Content */}
       <motion.div
@@ -50,7 +50,7 @@ export default function HeroSection() {
             transition={{ duration: 0.5, delay: 0.1, ease: [0.23, 1, 0.32, 1] }}
             className="mb-6"
           >
-            <span className="lx-badge lx-badge-primary">
+            <span className="lx-badge lx-badge-primary inline-flex">
               <Sparkles size={10} />
               Plataforma universitaria inteligente
             </span>
@@ -160,7 +160,7 @@ function GlowOrb({ className }: { className?: string }) {
   return (
     <div
       className={`lx-glow-orb ${className}`}
-      style={{ background: 'oklch(0.72 0.14 290 / 0.18)' }}
+      style={{ background: 'oklch(0.56 0.15 275 / 0.15)' }}
     />
   );
 }

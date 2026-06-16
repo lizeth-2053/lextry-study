@@ -62,15 +62,15 @@ export default function FeaturesSection() {
         <FadeIn className="max-w-2xl mb-16">
           <span className="lx-badge lx-badge-primary mb-4 inline-flex">
             <Zap size={10} />
-            Todo lo que necesitas
+            Herramientas integradas
           </span>
           <h2 className="lx-display text-4xl md:text-5xl text-foreground mb-4 text-balance">
-            Una plataforma.
+            Todo lo que necesitas
             <br />
-            <span className="lx-gradient-text">Infinitas posibilidades.</span>
+            <span className="lx-gradient-text">en un solo lugar.</span>
           </h2>
           <p className="font-body text-base text-muted-foreground leading-relaxed text-pretty">
-            Desde planificar tu semestre hasta estudiar con IA, Lextry Study centraliza todo lo que necesitas.
+            Planificación académica, seguimiento de notas, herramientas de estudio con IA y productividad integrada.
           </p>
         </FadeIn>
 

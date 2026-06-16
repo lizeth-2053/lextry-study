@@ -61,12 +61,12 @@ export default function Navbar() {
                   />
                 </div>
                 <div className="flex flex-col leading-none">
-                  <span className="font-display font-700 text-base text-foreground tracking-tight">
+                  <span className="font-display font-800 text-base text-foreground tracking-tight">
                     Lextry
                   </span>
                   <span
-                    className="text-[10px] font-body font-500 tracking-widest uppercase"
-                    style={{ color: 'var(--lextry-primary)', letterSpacing: '0.12em' }}
+                    className="text-[9px] font-body font-600 tracking-widest uppercase"
+                    style={{ color: 'oklch(0.56 0.15 275)', letterSpacing: '0.1em' }}
                   >
                     Study
                   </span>

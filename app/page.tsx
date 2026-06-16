@@ -52,7 +52,7 @@ function StatsBar() {
               <div className="flex flex-col items-center gap-1 px-6 py-3">
                 <div className="flex items-center gap-1.5">
                   {stat.icon && (
-                    <stat.icon size={14} style={{ color: 'var(--lextry-primary)' }} />
+                    <stat.icon size={14} style={{ color: 'oklch(0.56 0.15 275)' }} />
                   )}
                   <span className="lx-stat-number text-3xl">{stat.value}</span>
                 </div>

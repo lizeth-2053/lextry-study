@@ -9,9 +9,9 @@ export default function CTASection() {
     <section className="py-24 md:py-32 relative overflow-hidden">
       {/* Background decoration */}
       <div
-        className="absolute w-[500px] h-[500px] -top-48 left-1/2 -translate-x-1/2 opacity-25 pointer-events-none"
+        className="absolute w-[500px] h-[500px] -top-48 left-1/2 -translate-x-1/2 opacity-15 pointer-events-none"
         style={{
-          background: 'oklch(0.72 0.14 290 / 0.18)',
+          background: 'oklch(0.56 0.15 275 / 0.20)',
           borderRadius: '50%',
           filter: 'blur(80px)',
         }}
@@ -22,12 +22,12 @@ export default function CTASection() {
           <div
             className="inline-flex items-center gap-2 px-4 py-2 rounded-full mb-8 border"
             style={{
-              background: 'oklch(0.72 0.14 290 / 0.08)',
-              borderColor: 'oklch(0.72 0.14 290 / 0.2)',
+              background: 'oklch(0.56 0.15 275 / 0.08)',
+              borderColor: 'oklch(0.56 0.15 275 / 0.18)',
             }}
           >
             <Sparkles size={14} style={{ color: 'var(--lextry-primary)' }} />
-            <span className="text-sm font-body font-medium" style={{ color: 'oklch(0.55 0.18 290)' }}>
+            <span className="text-sm font-body font-medium" style={{ color: 'oklch(0.44 0.18 275)' }}>
               Gratis para siempre en el plan básico
             </span>
           </div>

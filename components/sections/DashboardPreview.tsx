@@ -13,12 +13,12 @@ export default function DashboardPreview() {
         <FadeIn className="text-center max-w-2xl mx-auto mb-16">
           <span className="lx-badge lx-badge-primary mb-4 inline-flex">
             <GraduationCap size={10} />
-            Vista previa del dashboard
+            Dashboard intuitivo
           </span>
           <h2 className="lx-display text-4xl md:text-5xl text-foreground mb-4 text-balance">
-            Diseñado para
+            Interfaz clara
             <br />
-            <span className="lx-gradient-text">estudiantes reales</span>
+            <span className="lx-gradient-text">para tu productividad</span>
           </h2>
           <p className="font-body text-base text-muted-foreground leading-relaxed">
             Un dashboard limpio y enfocado que te muestra exactamente lo que necesitas saber cada día.

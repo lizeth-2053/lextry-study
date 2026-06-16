@@ -65,14 +65,14 @@ export default function ToolsShowcase() {
 function ToolPill({ icon: Icon, label, color }: { icon: any; label: string; color: string }) {
   return (
     <motion.div
-      className="flex items-center gap-2.5 px-4 py-3 rounded-xl border border-border bg-card cursor-default select-none flex-shrink-0"
+      className="flex items-center gap-2.5 px-4 py-3 rounded-md border border-border bg-card cursor-default select-none flex-shrink-0 shadow-xs hover:shadow-sm"
       whileHover={{ y: -2, scale: 1.02 }}
       whileTap={{ scale: 0.97 }}
       transition={{ duration: 0.2, ease: [0.23, 1, 0.32, 1] }}
     >
       <div
-        className="w-7 h-7 rounded-lg flex items-center justify-center flex-shrink-0"
-        style={{ background: `${color}18`, color }}
+        className="w-7 h-7 rounded-md flex items-center justify-center flex-shrink-0"
+        style={{ background: `${color}12`, color }}
       >
         <Icon size={14} />
       </div>

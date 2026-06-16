@@ -84,13 +84,13 @@ function TestimonialCard({ t }: { t: typeof testimonials[0] }) {
         "{t.text}"
       </p>
       <div className="flex items-center gap-3 mt-auto">
-        <div
-          className="w-9 h-9 rounded-full flex items-center justify-center text-xs font-bold flex-shrink-0"
-          style={{
-            background: 'oklch(0.72 0.14 290 / 0.15)',
-            color: 'oklch(0.55 0.18 290)',
-          }}
-        >
+              <div
+                className="w-9 h-9 rounded-full flex items-center justify-center text-xs font-bold flex-shrink-0"
+                style={{
+                  background: 'oklch(0.56 0.15 275 / 0.12)',
+                  color: 'oklch(0.44 0.18 275)',
+                }}
+              >
           {t.avatar}
         </div>
         <div>
